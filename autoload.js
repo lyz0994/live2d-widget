@@ -34,7 +34,7 @@ if (screen.width >= 768) {
 		// 配置选项的具体用法见 README.md
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
-			apiPath: "http://minecraft.shirokoserver.space:1090/api/",
+			apiPath: "minecraft.shirokoserver.space:1090/api/",
 			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
 		});
 	});
